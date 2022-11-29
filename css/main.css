@@ -2,6 +2,11 @@ body {
     width: 100%;
     height: 100%;
     background-color: black;
+    margin: 0 auto;
+}
+
+ul {
+    padding=0px !important;
 }
 
 .menu-principal {
@@ -27,10 +32,54 @@ main {
     display: inline-block;
     float: left;
     list-style: none;
+}
 
+.buttons ul li a:hover {
+    border-radius: 3px;
+    border-color: black;
 }
 
 .buttons {
     float: right;
     width: 60%;
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.header-2 {
+    background-color: white;
+    width: 980px;
+    margin: 0 auto;
+
+}
+
+button.slick-prev {
+    font-size: 0;
+    border: none;
+    width: 37px;
+    height: 24px;
+    z-index: 9;
+    background-color: rgb(217, 217, 217, 0.35);
+    position: absolute;
+    background-image: url('../img/arrow1.png');
+    top: 35%;
+    left: 0;
+
+}
+
+button.slick-next {
+    font-size: 0;
+    border: none;
+    width: 37px;
+    height: 24px;
+    z-index: 9;
+    background-color: rgb(217, 217, 217, 0.35);
+    position: absolute;
+    background-image: url('../img/arrow2.png');
+    top: 35%;
+    right: 0;
 }
