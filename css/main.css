@@ -29,8 +29,8 @@ main {
 
 .buttons ul li {
     margin-left: 10px;
-    display: inline-block;
     float: left;
+    display: block;
     list-style: none;
 }
 
